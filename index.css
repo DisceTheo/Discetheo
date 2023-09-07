@@ -1,0 +1,30 @@
+body{
+    font-size: large;
+
+    font-family: monospace;
+    background-color: rgb(160, 152, 152);
+    color: rgb(16, 16, 153);
+}
+@keyframes background-pan {
+    from{
+      background-position: 0% center;
+    }
+    to{
+      background-position: -200% center;
+    }
+  }
+  .grad{
+     animation: background-pan 3s linear infinite;
+     background-image: linear-gradient(to right, rgb(24, 90, 1),rgb(0, 19, 130),darkgreen);
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+     white-space: nowrap;
+     background-size: 200%;
+    }
+    
+.head{
+    font-size: xx-large;
+    font-family: monospace;
+    color: black;
+}
